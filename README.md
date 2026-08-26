@@ -1,20 +1,33 @@
 # Château de Sweets
 
-Château de Sweets için hazırlanan dinamik tanıtım ve vitrin web uygulaması. Laravel mimarisi ve Blade şablon yapısı temel alınarak geliştirilmiştir.
+A dynamic showcase and landing page web application for Château de Sweets, built with the Laravel framework and Blade templating engine.
 
-## Proje Hakkında
+## About the Project
 
-Uygulama; ürün ve marka tanıtımı, kurumsal bilgilendirme ve müşteri iletişim akışını sağlamak amacıyla tasarlanmıştır.
+This application is designed for product and brand presentation, corporate information, and customer communication workflows.
 
-* **Ana Sayfa:** Ürünleri öne çıkaran slider (carousel) alanı ve işletme tanıtımı.
-* **Hakkımızda:** Markanın hikayesini ve lezzet yaklaşımını içeren statik tanıtım sayfası.
-* **İletişim & Mesaj Formu:** Ziyaretçilerin doğrudan geri bildirim ve mesaj gönderebildiği form yapısı ile işlem sonrası bildirim akışı.
-* **Modüler Görünüm:** Tüm sayfalarda tutarlılığı sağlayan ana `layout` mimarisi.
+* **Home:** Features a responsive product carousel and business introduction.
+* **About Us:** A presentation page highlighting the brand's history and culinary philosophy.
+* **Contact & Feedback Form:** A feedback submission form with post-submission redirect and status handling.
+* **Modular Views:** A centralized `layout` architecture ensuring visual and structural consistency across all pages.
 
-## Teknolojiler
+## Tech Stack
 
-* **PHP / Laravel**
-* **Blade Templating Engine**
-* **HTML5, CSS3, JavaScript (Bootstrap Carousel)**
-* **MySQL / SQLite**
+* **Backend:** PHP / Laravel
+* **Frontend:** Blade Templating Engine, HTML5, CSS3, JavaScript (Bootstrap Carousel)
+* **Database:** MySQL / SQLite
 
+## Project Structure
+
+```text
+├── app/Http/Controllers/
+│   ├── HomeController.php      # Home view handling
+│   ├── AboutController.php     # About page flow
+│   └── ContactController.php   # Contact form & submission routing
+├── resources/views/
+│   ├── layouts/layout.blade.php
+│   ├── Home.blade.php
+│   ├── About.blade.php
+│   ├── Contact.blade.php
+│   └── Sent.blade.php
+└── routes/web.php              # Web route definitions
