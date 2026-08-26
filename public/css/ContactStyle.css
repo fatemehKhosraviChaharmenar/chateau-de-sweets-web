@@ -1,0 +1,75 @@
+.contact-info {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info h1 {
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #e0b973;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-info h3 {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+.feedback-box {
+    background-color: rgba(0, 0, 0, 0.57);  /* Açık pembe / tatlı ton */
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: 'Poppins', sans-serif;
+    max-width: 300px;   /* Küçük, kompakt */
+    margin: 50px auto;  /* Sayfa ortası */
+    text-align: center;
+}
+
+.feedback-box h2 {
+    color: rgb(255, 255, 255);  /* Canlı pembe */
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.56);  /* Pastel pembe ton */
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.feedback-box input:focus,
+.feedback-box textarea:focus {
+    border-color: #000000; /* Daha koyu pembe */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.89);
+    outline: none;
+}
+
+.feedback-box button {
+    background-color: rgb(206, 154, 154); /* Tatlı pembe ton */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.feedback-box button:hover {
+    background-color: #ff3366;
+    transform: translateY(-2px);
+}

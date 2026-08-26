@@ -1,0 +1,18 @@
+.about-section {
+    padding: 60px 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 70px;
+}
+.row justify-content-center{
+    margin-top: 100px;
+}
+.about-section h2 {
+    color: #a26d5d;
+    font-weight: 600;
+}
+
+.about-section p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+}
